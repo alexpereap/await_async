@@ -15,5 +15,5 @@ function doubleAfter2Seconds(x) {
   
   
   addAsync(10).then((sum) => {
-    console.log(sum);
+    console.log(`Sum result is:`${sum});
   });
